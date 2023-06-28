@@ -1,0 +1,46 @@
+﻿#calcuator {
+    height: 400px;
+    width: 300px;
+    background-color: lightgray;
+}
+#result {
+    height: 100px;
+    width: 300px;
+    background-color: lightgray;
+    float: left;
+}
+#numbers {
+    height: 300px;
+    width: 200px;
+    background-color: darkgray;
+    float: left;
+}
+#operators {
+    height: 300px;
+    width: 100px;
+    background-color: gray;
+    float: left;
+}
+#output {
+    height: 70px;
+    width: 270px;
+    margin: 10px;
+}
+.number {
+    height: 60px;
+    width: 60px;
+    color: white;
+    background-color: #615e5e;
+    margin: 2px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.operator {
+    height: 40px;
+    width: 70px;
+    color: white;
+    background-color: #c2c0c0;
+    margin-left: 12px;
+    margin-top: 8px;
+    font-weight: bold;
+}

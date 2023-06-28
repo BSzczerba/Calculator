@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel="stylesheet" />
+    <title>Calcuator</title>
+</head>
+<body>
+    <div id="calcuator">
+        <div id="result">
+            <form>
+                <input type="text" id="output" readonly />
+            </form>
+        </div>
+        <div id="numbers">
+            <form>
+                <input type="button" value="1" class="number" onclick="AddNumber(1)" />
+                <input type="button" value="2" class="number" onclick="AddNumber(2)" />
+                <input type="button" value="3" class="number" onclick="AddNumber(3)" /><br>
+                <input type="button" value="4" class="number" onclick="AddNumber(4)" />
+                <input type="button" value="5" class="number" onclick="AddNumber(5)" />
+                <input type="button" value="6" class="number" onclick="AddNumber(6)" /><br>
+                <input type="button" value="7" class="number" onclick="AddNumber(7)" />
+                <input type="button" value="8" class="number" onclick="AddNumber(8)" />
+                <input type="button" value="9" class="number" onclick="AddNumber(9)" /><br>
+                <input type="button" value="+/-" class="number" onclick="Change()" />
+                <input type="button" value="0" class="number" onclick="AddNumber(0)" />
+                <input type="button" value="," class="number" onclick="AddNumber('.')" />
+            </form>
+        </div>
+        <div id="operators">
+            <input type="button" value="C" class="operator" onclick="Clear()" /><br>
+            <input type="button" value="/" class="operator" onclick="AddOperator('/')" /><br>
+            <input type="button" value="*" class="operator" onclick="AddOperator('*')" /><br>
+            <input type="button" value="-" class="operator" onclick="AddOperator('-')" /><br>
+            <input type="button" value="+" class="operator" onclick="AddOperator('+')" /><br>
+            <input type="button" value="=" class="operator" onclick="Calculate()" /><br>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
